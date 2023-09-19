@@ -23,6 +23,7 @@ body {
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
+  color: #111111;
 }
 
 .header__info {
@@ -33,11 +34,12 @@ body {
 
 .header__title {
   font-size: 56px;
-  font-weight: 600;
   line-height: 64px;
   letter-spacing: -4px;
   text-transform: uppercase;
   padding: 12px 0 32px 0;
+  font-family: "Sofia Pro", bold, serif;
+  color: #111111;
 }
 .header__img {
   height: 568px;
@@ -51,9 +53,14 @@ body {
   transition: right 0.1s ease-in-out;
 }
 
-.arrow-left:active {
+.arrow-left:hover {
   position: relative;
   right: 5px;
+}
+
+.arrow-left:active {
+  position: relative;
+  right: 10px;
 }
 
 .arrow-right {
@@ -62,9 +69,14 @@ body {
   transition: left 0.1s ease-out;
 }
 
-.arrow-right:active {
+.arrow-right:hover {
   position: relative;
   left: 5px;
+}
+
+.arrow-right:active {
+  position: relative;
+  left: 10px;
 }
 
 /* nav */
@@ -80,7 +92,7 @@ body {
 .logo {
   font-size: 36px;
   font-weight: 600;
-  color: #000;
+  color: #111111;
 }
 
 .nav-list {
@@ -105,7 +117,7 @@ body {
 }
 
 .nav-list__item a {
-  color: #000;
+  color: #111111;
 }
 
 .nav-sections {
@@ -119,7 +131,7 @@ body {
 .btn {
   padding: 15px 30px;
   position: relative;
-  color: #c8815f;
+  color: #111111;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
